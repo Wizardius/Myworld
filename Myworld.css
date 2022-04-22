@@ -1,0 +1,54 @@
+body {
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    background: url("/CSSHTML/MyWorld/background/oldpapper.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mainmenu {
+    position: fixed;
+    display: flex;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    justify-content: right;
+    height: 60px;
+}
+
+#mainmenu li {
+    display: inline-flex;
+    margin-right: 0px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    }
+
+#mainmenu .nav-link {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(7, 5, 2);
+}
+
+#mainmenu .nav-link:hover {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(185, 6, 6);
+}
+
+#world {
+    display: flex;
+}
+
+#utrel {
+    margin-top: 40px;
+}
+
+#svasala {
+    margin-top: 40px;
+    justify-content: right;
+    right: 0px;
+}
